@@ -1,0 +1,505 @@
+/*start writing css code*/
+*
+{
+margin: 0px;
+padding: 0px;
+}
+body
+{
+ background-image:url('images/banner.webp');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 500px;
+background-blend-mode: hard-light 30%;
+}
+.container
+{position: relative;
+}
+
+/* header css code */
+header h1
+{
+float: left;
+font-family: arial;
+color: #fff;
+margin-left: 80px;
+margin-top: 12px;
+}
+header nav 
+{
+float: right; 
+}
+header nav ul
+{ list-style-type: none;
+}
+header nav ul li
+{float: left;
+margin-right: 30px;
+font-family: arial;
+margin-top: 20px;
+font-weight: bold;
+}
+header nav ul li a
+{color: #fff;
+}
+a:link
+{text-decoration: none;
+font-size: 18px;
+font-family: arial;
+}
+a:hover
+{text-decoration: underline;
+color:#0000FF;
+}
+.hello a:link
+{ text-decoration: underline solid #0000FF ;
+margin-left:280px;
+margin-right: 20px;
+}
+
+/* start css code for the content of the logo*/
+.logo p
+{position: absolute;
+top: 230px;
+color: #fff;
+font-size: 80px;
+left:130px;
+font-weight:bold;
+font-family: sans-serif;
+}
+.logo input[type="btn"]
+
+/* start css code for the best product */
+{position: absolute;
+top:550px;
+left: 130px;
+height: 50px;
+background-color: 7B68EE;
+color: #fff;
+text-align: center;
+padding: 10px 20px 10px 20px;
+border-radius: 22px;
+width: 190px;
+border: none;
+font-family: sans-serif;
+}
+.logo input[type="btn"]:hover
+{background: transparent;
+color: 7B68EE;
+border: 10px solid 7B68EE;
+}
+.product{text-align: center;
+}
+.product h4
+{color:#7B68EE;
+font-family: sans-serif;
+position: absolute;
+top: 800px;
+left: 665px;
+}
+.product p
+{font-size: 30px;
+font-family: sans-serif;
+color: #000;
+position: absolute;
+top: 850px;
+left: 480px
+}
+.design
+{text-align: center;
+position: absolute;
+margin-left: 100px;
+top: 1000px;
+}
+.design ul 
+{list-style-type: none;
+margin-left: 55px;
+}
+.design ul li
+{float: left;
+border: 1px solid #A9A9A9;
+height: 300px;
+width: 320px;
+overflow: hidden;
+margin: 10px;
+}
+.design ul li:hover
+{border:2.5px solid #8A2BE2; 
+}
+.design h2
+{margin-top: 100px;margin-bottom: 15px;}
+.design p
+{font-weight: lighter;
+color: #808080;
+padding: 10px;
+font-size: 15px;
+font-size: 20px;
+font-family: cilibri;}
+.design .design1
+{background-image:url('images/3.svg');
+background-repeat: no-repeat;
+background-position:  top 15px center ;
+top: 15px; 
+background-size: 60px 60px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.design .design2
+{background-image:url('images/2.svg');
+background-repeat: no-repeat;
+background-position:  top 15px center; 
+background-size: 60px 60px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.design .design3
+{background-image:url('images/1.svg');
+background-repeat: no-repeat;
+background-position:  top 15px center; 
+background-size: 60px 60px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+/* start css code for empowering individuals */
+.about
+{position: absolute;
+top: 1500px;
+background-color: #000;
+width: 100%;
+height: 650px;
+}
+.about 
+{background-image:url('images/about (1).webp');
+background-position:left 0px;
+background-size: 670px 650px;
+background-repeat: no-repeat;  
+}
+.about h4
+{position: absolute;
+color:#fff;
+left: 800px;
+top: 120px;
+font-family: sans-serif;
+}
+.about h1
+{position: absolute;
+color: #fff;
+left: 800px;
+font-family: sans-serif;
+top:180px;
+}
+.about p
+{position: absolute;
+color: #DCDCDC;
+left:800px;
+font-family: sans-serif;
+top: 270px;
+font-size: 18px;
+font-weight: lighter;
+}
+.about input[type="btn"]
+{position: absolute;
+top:460px;
+height: 50px;
+background-color: 7B68EE;
+left: 800px;
+color: #fff;
+text-align: center;
+padding: 10px 20px 10px 20px;
+border-radius: 22px;
+width: 190px;border: none;
+font-family: sans-serif;
+}
+.about input[type="btn"]:hover
+{background: transparent;
+color: 7B68EE;
+border: 10px solid 7B68EE;
+}
+
+/* start css code for features */
+.features
+{text-align: center;
+}
+.features h1
+{font-family: serif;
+position: absolute;
+top:2240px;
+left: 550px;
+}
+.features p
+{position: absolute;
+font-family: serif;
+top: 2295px;
+left: 455px;
+color: #696969;
+font-size: 17px;
+padding: 5px;
+}
+.features ul
+{position: absolute;
+top: 2400px;
+list-style-type: none;
+margin-left: 40px;
+margin-right: 30px;
+}
+.features ul li
+{float: left;
+margin-top: 20px;
+padding: 13px;
+overflow: hidden;
+}
+
+/* start css code for How we work*/
+.info 
+{position:absolute;
+top: 3450px;
+width: 100%;
+height: 650px;
+background-color:#FFFAFA;
+}
+.info h1
+{position: absolute;
+left:50px;
+font-size: 35px;
+font-family: serif;
+bottom:470px;
+float: left;}
+.info p
+{position: absolute;
+left: 50px;
+color: #696969;
+float: left;
+top: 290px;
+font-size: 20px;
+padding: 10px; 
+}
+.info
+{background-image:url('images/work.webp');
+background-position:right 0px;
+background-size: 580px 650px;
+background-repeat: no-repeat; 
+top: 3450px;
+border-radius:10px 10px 10px 10px;  
+}
+
+/* start css code for crative team */
+.creative
+{text-align: center;
+background-color: #F0FFF0;
+}
+.creative h1
+{position: absolute;
+top:4200px;
+left: 560px;
+font-size: 30px;
+font-family: serif; 
+}
+.creative p
+{position:absolute;
+top: 4250px;
+left: 440px;
+font-size:medium;
+font-family: serif;
+color: #696969; 
+}
+.creative ul
+{position: absolute;
+top:4470px;
+list-style-type: none;
+margin-left: 80px; 
+}
+.creative ul li
+{float:left;
+padding: 15px;
+}
+.creative .fig1 p
+{
+top:350px;
+left: 75px;
+}
+.creative .fig2 p
+{top:350px;
+left: 345px; 
+}
+.creative .fig3 p
+{top: 350px;
+left:665px; 
+}
+.creative .fig4 p
+{top: 350px;
+left:968px;
+}
+.owner
+{text-align: center;
+position:absolute;
+top: 4950px;
+width: 100%;
+height: 550px;
+}
+
+/* start css code for owner */
+.owner
+{background-image:url('images/banner (1).webp');
+background-repeat: no-repeat;
+background-size: 100% 550px;
+background-size: cover;
+}
+.owner p
+{font-weight: bold;
+font-family: arial;
+font-size:25px;
+color: #fff;
+position: absolute;
+top: 225px;
+left: 260px; 
+}
+.owner img
+{position: absolute;
+top: 300px;
+left:600px; 
+}
+.owner h3
+{position: absolute;
+font-weight: bold;
+color: #fff;
+font-family: arial;
+top: 350px;
+left: 550px;
+}
+.owner span
+{position: absolute;
+font-weight: bold;
+color: #fff;font-family: arial;
+left:16px;
+font-size:15px;top:  
+}
+
+/* start css code for form */
+.form 
+{text-align: center;
+position: absolute;
+top: 5600px;
+}
+.form h1
+{font-family:serif;
+font-size: 42px;
+margin-left: 400px;
+}
+.form p
+{font-family:comic;
+font-size:15px;
+font-weight: lighter;
+color: #696969;
+margin-left: 370px;
+}
+.form .form1
+{margin-top: 80px;
+width: 360px;
+height: 40px;
+border-radius: 25px;
+margin-right: 40px;
+border: 1px solid #A9A9A9;
+margin-left: 270px;
+font-size: 17px;
+padding-left: 10px;
+color: #000;
+}
+.form .form2
+{width: 360px;
+height: 40px;
+border-radius: 25px;
+border: 1px solid #A9A9A9;
+padding-left: 10px;
+font-size: 20px;
+color: #000; 
+}
+.form .form3
+{width: 770px;
+height: 40px;
+border-radius:25px;
+margin-left: 270px;
+border: 1px solid #A9A9A9;
+padding-left: 10px;
+font-size: 17px;
+color: #000;
+}
+.form .form4
+{width: 770px;
+height: 100px;
+border-radius:25px;
+margin-left: 270px;
+border: 1px solid #A9A9A9;
+padding-left: 10px;
+font-size:17px;color: #000;
+}
+.form input[type="btn"]
+{height: 40px;
+background-color: 7B68EE;
+margin-left: 270px;
+color: #fff;
+text-align: center;
+padding: 10px 20px 10px 20px;
+border-radius: 22px;
+width: 770px;
+border: none;
+}
+.form input[type="btn"]:hover
+{background: transparent;
+color: 7B68EE;
+border: 10px solid 7B68EE;
+}
+/* css code for the footer */
+.end
+{width: 100%;
+height: 480px;
+background-color: #000;
+position:absolute;
+top:6100; 
+}
+.end .head 
+{position: absolute;right: 1145px;top: 100px;}
+
+.end nav 
+{
+float: right; 
+}
+.end nav ul
+{ list-style-type: none;margin-top: 100px;}
+
+.end nav ul li
+{float: left;font-family: arial;margin-right: 50px;top:20px;right: 20px;
+font-weight: bold; }
+.end nav ul li a
+{color: #fff;}
+.end ul li a:link
+{text-decoration: none;
+font-size: 16px;
+font-family: arial;}
+ .end ul li a:hover
+{text-decoration: none;
+color:#fff;
+}
+ .end .head2
+ {padding: 10px;
+ margin-left:2px;
+}
+ .end .head3 a 
+ {margin-left: 40px;
+ margin: 0px;
+}
+
+.end hr
+{margin-top:390px;
+color:  #C0C0C0 ;
+}
+.end p
+{color: #fff;
+font-size: 20px;
+margin-top:45px;
+margin-left: 500px;}
+.end p a
+{color:#0000FF;
+text-decoration: none;
+}
